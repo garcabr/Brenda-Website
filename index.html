@@ -34,6 +34,14 @@
         .menu-item {
             margin: 10px 0;
         }
+        .image-container {
+            margin: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
         footer {
             margin-top: 20px;
             color: #fff;
@@ -48,20 +56,42 @@
     <header>
         <h1>KNA Deli</h1>
         <p>Your neighborhood deli - Fresh and local!</p>
+        <!-- Image for the header -->
+        <div class="image-container">
+            <img src="header-image.jpg" alt="KNA Deli Storefront">
+        </div>
     </header>
     <section id="about">
         <h2>About Us</h2>
         <p>Welcome to KNA Deli! We offer a variety of fresh sandwiches, salads, and daily specials made from locally-sourced ingredients.</p>
+        <!-- Image for About Us -->
+        <div class="image-container">
+            <img src="about-us-image.jpg" alt="Inside KNA Deli">
+        </div>
     </section>
     <section id="menu">
         <h2>Menu Highlights</h2>
-        <div class="menu-item"><strong>Classic Reuben:</strong> Corned beef, Swiss, sauerkraut, and Russian dressing on rye.</div>
-        <div class="menu-item"><strong>Turkey Club:</strong> Roasted turkey, bacon, lettuce, tomato, and mayo on toasted bread.</div>
-        <div class="menu-item"><strong>Vegetarian Delight:</strong> A medley of seasonal vegetables with hummus on whole wheat.</div>
+        <!-- Menu Items with Images -->
+        <div class="menu-item">
+            <strong>Classic Reuben:</strong> Corned beef, Swiss, sauerkraut, and Russian dressing on rye.
+            <img src="reuben.jpg" alt="Classic Reuben Sandwich">
+        </div>
+        <div class="menu-item">
+            <strong>Turkey Club:</strong> Roasted turkey, bacon, lettuce, tomato, and mayo on toasted bread.
+            <img src="turkey-club.jpg" alt="Turkey Club Sandwich">
+        </div>
+        <div class="menu-item">
+            <strong>Vegetarian Delight:</strong> A medley of seasonal vegetables with hummus on whole wheat.
+            <img src="veggie-delight.jpg" alt="Vegetarian Delight Sandwich">
+        </div>
     </section>
     <section id="owners">
         <h2>Meet the Owners</h2>
         <p>John and Jane Doe, a couple passionate about good food and community, started KNA Deli in 2020.</p>
+        <!-- Image for Meet the Owners -->
+        <div class="image-container">
+            <img src="owners.jpg" alt="John and Jane Doe">
+        </div>
     </section>
     <footer>
         <p>© 2024 KNA Deli, All rights reserved.</p>
