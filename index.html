@@ -3,43 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi Brenda</title>
+    <title>KNA Deli</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f4f4f9;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            height: 100vh;
             color: #333;
         }
-        .container {
+        header, section {
+            width: 100%;
             text-align: center;
-            background-color: #ffffff;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            background-color: white;
+            margin-bottom: 20px;
         }
-        h1 {
+        h1, h2 {
             color: #5d55fa;
         }
-        a {
-            color: #5d55fa;
-            text-decoration: none;
-            font-weight: bold;
+        p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.5;
         }
-        a:hover {
-            text-decoration: underline;
+        .menu-item {
+            margin: 10px 0;
+        }
+        footer {
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Hi Brenda</h1>
-        <p><a href="https://www.kinder.com/us/en/bueno-us-landing-page">Click here to go somewhere!</a></p>
-    </div>
+    <header>
+        <h1>KNA Deli</h1>
+        <p>Your neighborhood deli - Fresh and local!</p>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to KNA Deli! We offer a variety of fresh sandwiches, salads, and daily specials made from locally-sourced ingredients.</p>
+    </section>
+    <section id="menu">
+        <h2>Menu Highlights</h2>
+        <div class="menu-item"><strong>Classic Reuben:</strong> Corned beef, Swiss, sauerkraut, and Russian dressing on rye.</div>
+        <div class="menu-item"><strong>Turkey Club:</strong> Roasted turkey, bacon, lettuce, tomato, and mayo on toasted bread.</div>
+        <div class="menu-item"><strong>Vegetarian Delight:</strong> A medley of seasonal vegetables with hummus on whole wheat.</div>
+    </section>
+    <section id="owners">
+        <h2>Meet the Owners</h2>
+        <p>John and Jane Doe, a couple passionate about good food and community, started KNA Deli in 2020.</p>
+    </section>
+    <footer>
+        <p>© 2024 KNA Deli, All rights reserved.</p>
+    </footer>
 </body>
 </html>
